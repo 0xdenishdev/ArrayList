@@ -289,13 +289,13 @@ public class MyArrayListTest {
         assertFalse(iter.hasNext());
     }
 
-    /*@Test
+    @Test
     public void testIteratorGetElement() {
         list.add(1);
         list.add(2);
         ListIterator<Integer> iter = list.listIterator();
         assertEquals(1, (int) iter.next());
-    }*/
+    }
 
     @Test
     public void testNoSuchElementIterator() {
