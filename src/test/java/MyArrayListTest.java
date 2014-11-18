@@ -84,14 +84,14 @@ public class MyArrayListTest {
         assertEquals(1, list.size());
     }
 
-    /*@Test
+    @Test
     public void testToArray() {
         list.add(1);
         list.add(2);
         list.add(3);
         Object[] newArray = list.toArray();
         assertEquals(Arrays.asList(newArray), list);
-    }*/
+    }
 
     @Test
     public void testGet() {
