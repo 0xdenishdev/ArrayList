@@ -47,7 +47,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Returns true if this list contains no elements.
+     * Returns <tt>true</tt> if this list contains no elements.
      *
      * @return true if this list contains no elements.
      */
